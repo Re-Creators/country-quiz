@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="flex flex-col min-h-screen">
+    <Home/>
+    
+    <footer class="relative w-full mb-2 z-10 flex-grow flex flex-row items-end">
+        <p class="text-white mx-auto">created by <span class="underline font-bold">Re-Creators</span> - devChallenges.io </p>
+    </footer>
+
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Home from './components/Home.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home
   }
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  background-image: url('~@/assets/images/background.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: hidden;
 }
 </style>
