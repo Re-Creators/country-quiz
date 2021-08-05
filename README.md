@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://devchallenges.io/solutions/3lACcl6llLAf8DpEL1ow">
       Solution
     </a>
     <span> | </span>
@@ -79,7 +79,7 @@ $ npm run serve
 ```
 
 ## Acknowledgement
--[REST COUNTRIES](https://restcountries.eu/)
+- [Rest Countries](https://restcountries.eu/)
 
 ## Contact
 
